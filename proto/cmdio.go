@@ -18,7 +18,7 @@
 package proto
 
 import (
-	"code.google.com/p/snappy-go/snappy"
+	"github.com/golang/snappy"
 	"crypto/aes"
 	"crypto/cipher"
 	"crypto/hmac"
